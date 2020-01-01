@@ -10,19 +10,19 @@ import javax.validation.Valid;
 import javax.validation.constraints.*;
 
 /**
- * Tag
+ * Book
  */
 @Validated
 @javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-01-01T01:17:15.636Z")
 
-public class Tag   {
+public class Book   {
   @JsonProperty("id")
   private Long id = null;
 
   @JsonProperty("name")
   private String name = null;
 
-  public Tag id(Long id) {
+  public Book id(Long id) {
     this.id = id;
     return this;
   }
@@ -42,7 +42,7 @@ public class Tag   {
     this.id = id;
   }
 
-  public Tag name(String name) {
+  public Book name(String name) {
     this.name = name;
     return this;
   }
@@ -71,9 +71,9 @@ public class Tag   {
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
-    Tag tag = (Tag) o;
-    return Objects.equals(this.id, tag.id) &&
-        Objects.equals(this.name, tag.name);
+    Book book = (Book) o;
+    return Objects.equals(this.id, book.id) &&
+        Objects.equals(this.name, book.name);
   }
 
   @Override
@@ -84,7 +84,7 @@ public class Tag   {
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
-    sb.append("class Tag {\n");
+    sb.append("class Book {\n");
     
     sb.append("    id: ").append(toIndentedString(id)).append("\n");
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
