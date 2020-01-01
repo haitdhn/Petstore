@@ -1,6 +1,6 @@
 package com.haitd.petstore.api;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-01-01T01:17:15.636Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-01-01T01:17:23.505Z")
 
 public class NotFoundException extends ApiException {
     private int code;
