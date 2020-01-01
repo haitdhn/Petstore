@@ -2,7 +2,7 @@ package com.haitd.petstore.api;
 
 import javax.xml.bind.annotation.XmlTransient;
 
-@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-01-01T01:10:19.973Z")
+@javax.annotation.Generated(value = "io.swagger.codegen.languages.SpringCodegen", date = "2020-01-01T01:10:29.205Z")
 
 @javax.xml.bind.annotation.XmlRootElement
 public class ApiResponseMessage {
